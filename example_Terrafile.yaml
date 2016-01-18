@@ -1,0 +1,38 @@
+###############################################################
+# Master list of community_modules version numbers and an example
+# Terrafile to use in your modules
+# The source: path must be relative to where your module is
+###############################################################
+
+tf_aws_asg:
+  source:   "modules/community_modules/tf_aws_asg"
+  version:  "stable"
+tf_aws_asg_elb:
+  source:   "modules/community_modules/tf_aws_asg_elb"
+  version:  "stable"
+tf_aws_availability_zones:
+  source:   "modules/community_modules/tf_aws_availability_zones"
+  version:  "stable"
+tf_aws_ec2_instance:
+  source:   "modules/community_modules/tf_aws_ec2_instance"
+  version:  "stable"
+tf_aws_elb:
+  source:   "modules/community_modules/tf_aws_elb"
+  version:  "stable"
+tf_aws_igw:
+  source:   "modules/community_modules/tf_aws_igw"
+  version:  "stable"
+tf_aws_rds:
+  source:   "modules/community_modules/tf_aws_rds"
+  version:  "stable"
+tf_aws_sg:
+  source:   "modules/community_modules/tf_aws_sg"
+  version:  "stable"
+tf_aws_vpc:
+  source:   "modules/community_modules/tf_aws_vpc"
+  version:  "stable"
+
+# Custom SC Modules
+tf_aws_access_keys:
+  source:   "modules/sc_modules/tf_aws_access_keys"
+  version:  "stable"
